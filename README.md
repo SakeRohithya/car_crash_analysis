@@ -63,7 +63,9 @@ output_destination :
 3. [main.py](https://github.com/SakeRohithya/car_crash_analysis/blob/258369467d8cdcadf8219af0270f18981d3a8bdb/main.py) : Main file invokes queries file and execute the analysis queries
 
 Run the application by using the following command
-```spark-submit --master local[*] main.py ```
+```
+spark-submit --master local main.py
+```
 
 
 

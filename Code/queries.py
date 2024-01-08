@@ -325,21 +325,7 @@ class CarCrashAnalysis:
 
         except Exception as e:
             raise Exception(f'Error List of top 5 vehicle_make_ids satisfying given conditions with following exception : {e}')
-        
-        
 
-
-
-
-# spark = SparkSession.builder.appName('CarCrashAnalysis').getOrCreate()
-
-# config_file_path = 'config.yaml'
-
-
-# # car_analysis_class = CarCrashAnalysis(spark , config_file_path)
-# # print(read_yaml(config_file_path))x
-# charges_df = read_csv_data(spark, read_yaml(config_file_path)['input_source']['Charges'])
-# print(charges_df)
 
 
    
