@@ -31,7 +31,7 @@ pip install pyspark
 ```
 Clone the github repo 
 ```
-git clone https://github.com/SakeRohithya/car_crash_analysis
+git clone https://github.com/SakeRohithya/car_crash_analysis.git
 ```
 ### Modifications
 Edit [config.yaml](https://github.com/SakeRohithya/car_crash_analysis/blob/258369467d8cdcadf8219af0270f18981d3a8bdb/config.yaml) according to your folder paths.
