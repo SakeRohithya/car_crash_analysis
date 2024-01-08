@@ -34,7 +34,7 @@ Clone the github repo
 git clone https://github.com/SakeRohithya/car_crash_analysis
 ```
 ### Modifications
-Edit [config.yaml](https://github.com/SakeRohithya/car_crash_analysis/) according to your folder paths.
+Edit [config.yaml](https://github.com/SakeRohithya/car_crash_analysis/blob/258369467d8cdcadf8219af0270f18981d3a8bdb/config.yaml) according to your folder paths.
 - input_resource : Input folder location to read data into dfs
 - output_destination : Output folder location to store results in csv format
 ```
@@ -58,9 +58,9 @@ output_destination :
 
 ```
 ### python files
-1. [utilities.py]() : Handles loading yaml file given config file path , reading csv data into df , writes df into csv file
-2. [queries.py]() : Invokes utilities file , Loads the data into dfs , Perform query analyis logic  and stores the result in output folder
-3. [main.py]() : Main file invokes queries file and execute the analysis queries
+1. [utilities.py](https://github.com/SakeRohithya/car_crash_analysis/blob/258369467d8cdcadf8219af0270f18981d3a8bdb/Code/utilities.py) : Handles loading yaml file given config file path , reading csv data into df , writes df into csv file
+2. [queries.py](https://github.com/SakeRohithya/car_crash_analysis/blob/258369467d8cdcadf8219af0270f18981d3a8bdb/Code/queries.py) : Invokes utilities file , Loads the data into dfs , Perform query analyis logic  and stores the result in output folder
+3. [main.py](https://github.com/SakeRohithya/car_crash_analysis/blob/258369467d8cdcadf8219af0270f18981d3a8bdb/main.py) : Main file invokes queries file and execute the analysis queries
 
 Run the application by using the following command
 ```spark-submit --master local[*] main.py ```
