@@ -1,0 +1,25 @@
+input_source :
+  type : csv
+  Charges : ./Data/Charges_use.csv
+  Damages : ./Data/Damages_use.csv
+  Endorse : ./Data/Endorse_use.csv
+  Primary_Person : ./Data/Primary_Person_use.csv
+  Restrict : ./Data/Restrict_use.csv
+  Unit : ./Data/Units_use.csv
+
+output_destination :
+  type : csv
+  analysis1 : ./Output/analysis1_male_killed_count
+  analysis2 : ./Output/analysis2_two_wheeler_booked
+  analysis3 : ./Output/analysis3_state_with_highest_female_accidents
+  analysis4 : ./Output/analysis4_top_5to15_vehicle_ids
+  analysis5 : ./Output/analysis5_top_ethinc_vehicle_body_wise
+  analysis6 : ./Output/analysis6_top_5_drivercode_alcohol_factor
+  analysis7 : ./Output/analysis7_crash_ids_no_damage_car_insurance
+  analysis8 : ./Output/analysis8_top5_make_ids_speed_charge_top10_color_top25_state
+
+
+
+
+
+
